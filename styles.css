@@ -1,0 +1,41 @@
+
+
+* {
+    margin:0;
+    padding: 0;
+    font-family:monospace;
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    height:100vh;
+    align-items:center;
+    background-image:linear-gradient(to right bottom,lightblue,lightpink,lightblue);
+}
+
+div > h1 {
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:2px;
+    word-spacing:10px;
+    text-shadow:5px 5px rgba(0,0,0,.2);
+    margin-bottom:50px;
+}
+
+body > div {
+    padding:30px;
+    box-shadow:0 0 10px rgba(0,0,0.1);
+    border-radius:3px;
+}
+
+input[type='file'] {
+    padding:20px 20px;
+}
+
+div > div {
+    margin-left:30px;
+    box-shadow:0 0 3px rgba(0, 0, 0, 0.407);
+    border:none;
+    border-radius:10px;
+    padding:20px;
+}
